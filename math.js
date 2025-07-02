@@ -33,8 +33,26 @@ function substract(left, right)
 {
   return left - right;
 }
+
 // Combines two values
 function add(left, right) 
 {
   return left + right;
+}
+
+// Doubles the value
+function double(n)
+{
+    return 2 * n;
+}
+
+// Increases the value by 1
+function inc(n)
+{
+    return ++n;
+}
+// Decreases the value by 1
+function dec(n)
+{
+    return --n;
 }
