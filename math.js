@@ -51,8 +51,26 @@ function inc(n)
 {
     return ++n;
 }
+
 // Decreases the value by 1
 function dec(n)
 {
     return --n;
 }
+
+// Test
+const n = 5;
+const left = 20;
+const right = 10;
+
+console.log(square(n));
+console.log(isEven(n));
+console.log(isOdd(n));
+console.log(double(n));
+console.log(inc(n));
+console.log(dec(n));
+
+console.log(multiply(left, right));
+console.log(divide(left, right));
+console.log(substract(left, right));
+console.log(add(left, right));
