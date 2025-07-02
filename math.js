@@ -22,15 +22,19 @@ function multiply(left, right)
   return left * right;
 }
 
-//
+// Divides one value by another
 function divide(left, right) 
 {
-  return ;
+  return left / right;
 }
 
-//
+// Difference between two values
 function substract(left, right) 
 {
-  return ;
+  return left - right;
 }
-//
+// Combines two values
+function add(left, right) 
+{
+  return left + right;
+}
